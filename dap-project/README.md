@@ -1,1 +1,10 @@
+Data Analytics Pipeline Final Project 
 
+
+Project Goal:
+
+The goal of this project is to create an online platform that essentially serves as a text similarity classifier that people can create themselves without any understanding of deep learning or convolutional neural networks (which we will build our classifier on top of). When the project is complete, users should be able to upload and classify initial texts which a model will be trained on. From there, they should be able to type in any text and receive similarity scores to the initial baseline texts. There are many critical use cases to this platform. Firstly, this can be used as a mechanism to help companies determine similarity for proposals or grants that they may be seeking. For example, defense contractors can upload a large number of government contracts/grants and upload summaries of their existing research to help determine which contracts their work may be best suited for or help find new contracts that they had not seen previously. Law firms could use this platform on a database of legal cases to determine similarities in their case to existing legal precedence (a huge part of modern day jurisprudence). 
+
+Project Architecture: 
+
+The project is split into three main services: 1. The database, 2. The training service, and 3. The testing service. In the database, we will store the texts that a user uploads alongside the classification name that they ascribe to each document. These documents will then be broken down into sentences which will be split into a training, testing, and validation sets that will be used by the training service to create our initial deep learning model. The training service will use a CNN model that is trained on an embedding size of 8 with 100 epochs. We currently use 6 dense layers with a dropout rate of 0.2 between each layer. This model worked extremely well in our intial testing with novels. Finally, our testing service is a small, rapid service that is focused on providing the user with quick, immediate feedback on the class scores to help drive a seamless user experience. 
