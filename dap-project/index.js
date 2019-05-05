@@ -8,9 +8,9 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-      'What hath night to do with sleep?',
+      'Long is the way and hard, that out of Hell leads up to light.',
   'example2':
-      'Do not grieve, for the joy of the Lord is your strength.',
+      'And the LORD set a mark upon Cain, lest any finding him should kill him.',
   'example3':
       'Experience is the teacher of all things.',
   'example4':
