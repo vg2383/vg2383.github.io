@@ -12,7 +12,7 @@ const examples = {
   'example2':
       'And the LORD set a mark upon Cain, lest any finding him should kill him.',
   'example3':
-      'Experience is the teacher of all things.',
+      'Veni, vidi, vici.',
   'example4':
       'If I could but know his heart, everything would become easy.',  
 };
