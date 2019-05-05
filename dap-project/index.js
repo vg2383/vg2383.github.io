@@ -8,11 +8,13 @@ const HOSTED_URLS = {
 
 const examples = {
   'example1':
-      'Alice was beginning to get very tired of sitting by her sister on the bank.',
+      'What hath night to do with sleep?',
   'example2':
-      'Buda-Pesth seems a wonderful place.',
+      'Do not grieve, for the joy of the Lord is your strength.',
   'example3':
-      'Scepticism was as much the result of knowledge, as knowledge is of scepticism.'      
+      'Experience is the teacher of all things.',
+  'example4':
+      'If I could but know his heart, everything would become easy.',  
 };
 
 function status(statusText) {
