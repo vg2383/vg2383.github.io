@@ -1,0 +1,27 @@
+<!doctype html>
+
+<body>
+  <style>
+    #textfield {
+      font-size: 120%;
+      width: 60%;
+      height: 200px;
+    }
+  </style>
+  <h1>
+    Data Analytics Pipeline Final Project
+  </h1>
+  <h2>Upload Service</h2>
+  
+  <h4>Upload New Training Files:</h4>
+  <input type="button" value="Go To Upload Page" onClick="navToUpload()"/>
+
+    <form id='mainForm' action = "javascript:;" enctype="multipart/form-data" onsubmit="onSubmitFn()">
+      <input type="file" name="files[]"/>
+      <input type="submit" value="Upload File" name="submit" />
+      <input type="button" value="Reset" onClick="onResetFn()"/>
+    </form>
+
+  <script src='https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js'></script>
+  <script src='upload.js'></script>
+</body>
